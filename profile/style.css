@@ -1,6 +1,6 @@
 p
 {
-    background-color: blue;
+    background-color: transparent;
     color: white;
     font-family: arial;
     font-size: 18pt;
@@ -15,7 +15,7 @@ p.halloween
 p.heading
 {
     background-color: transparent;
-    color: white;
+    color: red;
     font-family: consolas;
     font-size: 24pt;
 }
