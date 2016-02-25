@@ -7,14 +7,22 @@ p
     font-size: 16pt;
 }
 
-a
+button
 {
     background-color: blue;
     color: red;
 }
 
-a:hover
+button:hover
 {
     background-color: red;
     color: blue;
+}
+
+p.heading
+{
+    background-color: transparent;
+    color: red;
+    font-family: consolas;
+    font-size: 24pt;
 }
