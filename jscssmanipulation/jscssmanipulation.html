@@ -5,12 +5,13 @@
         rel="stylesheet"
         type="text/css"/>
 		<script type="text/javascript"
-            src="validator.js">
+            src="changecss.js">
         </script>
 	</head>
 
 	<body>
-        <p>
+        <p class="heading"> Css Manipulation</p>
+        <p id="main">
             Mascots are believed to bring good luck, especially to athletic teams.<br>
              Just about every college claims a mascot.
              The University of Kansas is home of the Jayhawk,</br> a mythical bird with a fascinating history.
@@ -20,6 +21,20 @@
                 The name combines two birds--the blue jay, a noisy, quarrelsome thing known to rob other nests,
                  and the </br>sparrow hawk, a stealthy hunter. <br>The message here: Don't turn your back on this bird.</br>
         </p>
+        <p class="heading"> Border</p>
+        <input type="text" id="bred" placeholder="Red value 0-255"><br>
+        <input type="text" id="bgreen" placeholder="Green value 0-255"><br>
+        <input type="text" id="bblue" placeholder="Blue value 0-255"><br>
+        <input type="text" id="bwidth" placeholder="width: small | medium | large"><br>
+
+        <p class="heading"> Background Color </p>
+
+        <input type="text" id="bgred" placeholder="Red value 0-255"><br>
+        <input type="text" id="bggreen" placeholder="Green value 0-255"><br>
+        <input type="text" id="bgblue" placeholder="Blue value 0-255"><br>
+
+        <br> </br>
+        <button onclick="change()">Change</button>
 
 	</body>
 </html>
