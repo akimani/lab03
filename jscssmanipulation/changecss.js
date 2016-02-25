@@ -13,4 +13,6 @@ function change()
 
 
     x.style.borderColor = "rgb("+bdrRed+","+bdrGrn+","+bdrBlue+")";
+
+    x.style.backgroundColor = "rgb("+bgRed+","+bgGreen+","+bgBlue+")";
 }
